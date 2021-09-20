@@ -9,6 +9,7 @@ import { ShowtaskComponent } from './showtask/showtask.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { NgDragDropModule } from 'ng-drag-drop';
+import { EditTaskComponent } from './edit-task/edit-task.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { NgDragDropModule } from 'ng-drag-drop';
     AddtaskComponent,
     ShowtaskComponent,
     HeaderComponent,
-    HomeComponent
+    HomeComponent,
+    EditTaskComponent
    
   ],
   imports: [
